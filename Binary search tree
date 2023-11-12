@@ -1,0 +1,30 @@
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları:
+
+1. Adım: Dizideki en büyük elemanı, yani 9'u seçin ve root olarak ayarlayın.
+
+2. Adım: 9'dan küçük olan ilk elemanı, yani 8'i seçin ve 9'un sol çocuğuna yerleştirin.
+
+3. Adım: 8'den küçük olan ilk elemanı, yani 7'yi seçin ve 8'in sol çocuğuna yerleştirin.
+
+4. Adım: 7'den büyük olan ilk elemanı, yani 5'i seçin ve 7'nin sağ çocuğuna yerleştirin.
+
+5. Adım: 5'ten küçük olan ilk elemanı, yani 1'i seçin ve 5'in sol çocuğuna yerleştirin.
+
+6. Adım: 1'den büyük olan ilk elemanı, yani 3'ü seçin ve 1'in sağ çocuğuna yerleştirin.
+
+7. Adım: 3'ten küçük olan ilk elemanı, yani 2'yi seçin ve 3'ün sol çocuğuna yerleştirin.
+
+8. Adım: 2'den büyük olan ilk elemanı, yani 4'ü seçin ve 2'nin sağ çocuğuna yerleştirin.
+
+9. Adım: 4'ten küçük olan ilk elemanı, yani 0'ı seçin ve 4'ün sol çocuğuna yerleştirin.
+
+10. Adım: 0'dan büyük olan ilk elemanı, yani 6'yı seçin ve 0'ın sağ çocuğuna yerleştirin.
+
+     9
+   /    \
+  8      7
+ / \    / \
+5   1  3   2
+/ \  / \
+0   4   6
