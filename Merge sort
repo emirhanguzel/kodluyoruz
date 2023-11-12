@@ -1,1 +1,7 @@
+İlk olarak, dizi ikiye bölünür. Bu durumda, dizi [16,21] ve [11,8,12,22] olarak ikiye bölünür.
+Her bir alt dizi kendi içinde merge sort algoritması kullanılarak sıralanır. Bu durumda, [16,21] dizisi [16] ve [21] olarak ikiye bölünür. [16] dizisi tek bir eleman içerdiğinden zaten sıralanmış olarak kabul edilir. [21] dizisi ise [21] olarak tek bir eleman içerdiğinden zaten sıralanmış olarak kabul edilir.
+Sıralanmış olan alt diziler birleştirilir. Bu durumda, [16] ve [21] dizileri birleştirilerek [16,21] dizisi oluşturulur. [11,8,12,22] dizisi ise [11,8,12] ve [22] olarak ikiye bölünür. [11,8,12] dizisi [11,8] ve [12] olarak ikiye bölünür. [11,8] dizisi [11] ve [8] olarak ikiye bölünür. [11] dizisi tek bir eleman içerdiğinden zaten sıralanmış olarak kabul edilir. [8] dizisi ise tek bir eleman içerdiğinden zaten sıralanmış olarak kabul edilir. [12] dizisi ise tek bir eleman içerdiğinden zaten sıralanmış olarak kabul edilir. [22] dizisi ise tek bir eleman içerdiğinden zaten sıralanmış olarak kabul edilir.
+Adım 3, dizi tamamen sıralanana kadar tekrarlanır. Bu durumda, [11,8,12] ve [22] dizileri birleştirilerek [11,8,12,22] dizisi oluşturulur. Böylece, dizi tamamen sıralanmış olur.
+Big-O Gösterimi
 
+Merge sort'un zaman karmaşıklığı, en kötü durumda O(n log n), ortalama durumda O(n log n) ve en iyi durumda O(n log n)'dir.
