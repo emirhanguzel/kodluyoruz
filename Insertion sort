@@ -1,0 +1,23 @@
+
+Insertion Sort Aşamaları
+
+Dizinin ilk elemanı, yani 22, zaten sıralanmış olarak kabul edilir.
+İkinci eleman olan 27, 22'den büyük olduğundan, 22'nin arkasına eklenir.
+Üçüncü eleman olan 16, 22 ve 27'den küçük olduğundan, bu iki elemanın arasına eklenir.
+Dördüncü eleman olan 2, 16'dan küçük olduğundan, 16'nın önüne eklenir.
+Beşinci eleman olan 18, 16 ve 2'den büyük olduğundan, 2'nin arkasına eklenir.
+Altıncı eleman olan 6, 2'den küçük olduğundan, 2'nin önüne eklenir.
+Big-O Gösterimi
+
+Insertion sort'un zaman karmaşıklığı, en kötü durumda O(n^2), ortalama durumda O(n log n) ve en iyi durumda O(n)'dir.
+
+Time Complexity
+
+Dizi sıralandıktan sonra 18 sayısı en iyi durumda bulunur. Çünkü 18, dizinin ilk elemanı olarak zaten sıralanmış olarak kabul edilir.
+
+Selection Sort İlk 4 Adım
+
+Dizideki en küçük eleman olan 2, 0. indekse yerleştirilir.
+Dizideki en küçük eleman olan 3, 1. indekse yerleştirilir.
+Dizideki en küçük eleman olan 5, 2. indekse yerleştirilir.
+Dizideki en küçük eleman olan 8, 3. indekse yerleştirilir.
